@@ -364,3 +364,56 @@ nav a {
     width: 100%;
     text-align: center;
 }
+#testimonials {
+    background-color: #eee;
+    padding-bottom: 19vh;
+    
+}
+.box_tm {
+    width: 23.71vw;
+}
+.name_tm {
+    margin-bottom: 1.3vh;
+}
+.name_tm h3 {
+    font-weight: bold;
+}
+.name_tm h4 {
+    font-style: italic;
+    color: #696973;
+    font-weight: 400;
+}
+.name_tm h3,
+.name_tm h4 {
+    font-size: 1.26vw;   
+    text-align: center;
+}
+.text_tm {
+    text-align: center;
+}
+.box_img_tm {
+    width: 11.62vw;
+    height: 11.62vw;
+    border-radius: 11.62vw;
+    overflow: hidden;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: calc( 50% - 5.81vw );
+}
+.box_img_tm img {
+    width: 100%;
+    height: auto;
+}
+.img_tm {
+    position: relative;
+    height: 12.8vw;
+}
+.dot_tm {
+    width: 2.76vw;
+    height: 2.29vw;
+    position: absolute;
+    z-index: 1;
+    top: calc( 50% - 1.14vw);
+    left: 4.8vw;
+}
