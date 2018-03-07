@@ -16,4 +16,22 @@ $(function(){
             $('#bottom_header').removeClass('fixedNav');
         }
     });
+    
+    if( window.innerWidth > 1024) {
+        $('#slide').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+        });
+    } else {
+            $('#slide').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+        });
+    }
+    
+
 });
