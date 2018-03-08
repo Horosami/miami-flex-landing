@@ -363,7 +363,8 @@ nav a {
 }
 
 .form_consultation input,
-.form_contact input {
+.form_contact input,
+#form_call input {
     background-color: #eee;
     border: none;
     text-align: center;
@@ -394,7 +395,8 @@ nav a {
 }
 
 #form_con button,
-#form_cont button {
+#form_cont button,
+#form_call button {
     width: 100%;
     text-align: center;
 }
@@ -521,4 +523,34 @@ footer {
 
 #bottom_header.fixedNav nav {
     height: inherit;
+}
+
+#black_fill {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    background-color: rgba(0,0,0,0.8);
+}
+#modal_box {
+    position: fixed;
+    top: 20vh;
+    width: 50vw;
+    left: calc( 50% - 25vw );
+    z-index: 51;
+}
+.content_modal {
+    width: 100%;
+    background-color: #fff;
+    padding: 10%;
+}
+.close_modal {
+    width: 5vw;
+    height: 5vw;
+    position: absolute;
+    top: -4vw;
+    right: -4vw;
+    cursor: pointer;
 }
